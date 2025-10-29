@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 def gemini_search():
     # ---- CONFIG ----
-    with open("../secret_key.txt", "r") as s:
+    with open("Your security key here", "r") as s:
         API_KEY = s.read().strip()
 
     PROMPT = (
