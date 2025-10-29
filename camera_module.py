@@ -2,12 +2,12 @@
 
 import cv2
 import time
+import os
 import google.generativeai as genai
 
 def gemini_search():
     # ---- CONFIG ----
-    with open("./Security.txt", "r") as s:
-        API_KEY = s.read().strip()
+    API_KEY = os.getenv("GOOGLE_API_KEY")
 
     PROMPT = (
         "Describe what plant disease you see in this image in the format:\n"
