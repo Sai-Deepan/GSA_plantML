@@ -78,6 +78,15 @@ Built with a simple and elegant GUI, it allows users to upload or capture images
 
 ### Usage
 
+### 🔑 Setting Up Gemini API Key
+
+1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and create an API key.
+2. Open Bash and type
+```bash
+export GOOGLE_API_KEY="YOUR_API_KEY"
+```
+3. Be careful not to commit your API Key to Github
+   
 #### Run the Application
 
 ```bash
@@ -128,3 +137,4 @@ Copyright (c) 2025 **Deepan Sai**
 This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.
 
 ```
+
