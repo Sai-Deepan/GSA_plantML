@@ -135,6 +135,3 @@ Open an issue on GitHub or reach out via email.
 Copyright (c) 2025 **Deepan Sai**
 
 This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.
-
-```
-
